@@ -5,9 +5,7 @@ import androidx.work.Data
 import androidx.work.Worker
 import androidx.work.WorkerParameters
 
-class SecondWorker (
-    context: Context, workerParams: WorkerParameters
-) : Worker(context, workerParams) {
+class SecondWorker (context: Context, workerParams: WorkerParameters) : Worker(context, workerParams) {
     //This function executes the predefined process based on the input
     //and return an output after it's done
     override fun doWork(): Result {
